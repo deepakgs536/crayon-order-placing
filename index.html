@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onmousedown="return false" onselectstart="return false">
+    <div class="main">
+        <div class="sidebar">
+            <div class="brandlogo">
+                <img src="png/001-nestle.png" alt="nestle">
+            </div>
+            <div class="menuicons">
+                <div class="dashboardicon">
+                    <img src="png/005-dashboard.png" alt="">
+                    Dashboard
+                </div>
+                <div class="addtocart">
+                    <img src="png/007-add-to-cart.png" alt="">
+                    Sales
+                </div>
+                <div class="itemlist">
+                    <img src="png/list.png" alt="">
+                    Order
+                </div>
+                <div class="user">
+                    <img src="png/003-user.png" alt="">
+                    User
+                </div>
+                <div class="store">
+                    <img src="png/store.png" alt="">
+                    Store
+                </div>
+                <div class="inventory">
+                    <img src="png/inventory.png" alt="">
+                    Inventory
+                </div>
+                <div class="notification">
+                    <img src="png/006-bell.png" alt="">
+                    Alert
+                </div>
+            </div>
+            <div class="promotion">
+                <img src="png/OIP.jpeg" alt="">
+            </div>
+        </div>
+        <div class="dashboard">
+            <div class="searchbar">
+                <div class="input">
+                    <img src="png/search.png" alt="">
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="catlog" onclick="hiderightbar()">
+                    <img src="png/book.png" alt="">
+                </div>
+            </div>
+            <div class="summary-order">
+                <div class="orderid">
+                    <h3 >Cart Summary</h3>
+                    <p><span class="ordersummary">OrderId :</span> 000001</p>
+                </div>
+                <div class="tempicons">
+                    <img src="png/005-dashboard.png" alt="">
+                    <img src="png/005-dashboard.png" alt="">
+                    <img src="png/005-dashboard.png" alt="">
+                </div>
+            </div>
+            <hr>
+            <div class="simplyname">
+                <div class="item">Item</div>
+                <div class="quantity">Qty.</div>
+                <div class="amount">Amount</div>
+            </div>
+            <hr>
+            <div class="cartitems">
+                <img src="images/Screenshot 2024-09-23 124256.png" alt="">
+            </div>
+        </div>
+        <div class="rightbar">
+            <div class="summary">
+                <div class="paymentsummary"><h3>Payment Summary</h3></div>
+                <div class="username"><img src="png/003-user.png" alt="">  Ashwin</div>
+            </div>
+            <div class="subtotals">
+                <div class="toatlname">
+                    <h4>Sub Total</h4>
+                    <h4>Taxable Amount</h4>
+                    <h4>Total Tax</h4>
+                </div>
+                <div class="totalprice">
+                    <h3>SAR 0.00</h3>
+                    <h3>SAR 0.00</h3>
+                    <h3>SAR 0.00</h3>
+                </div>
+            </div>
+           
+            <hr>
+            <div class="grandtotal">
+                <div class="grandtotalname">Grand Total</div>
+                <div class="grandprice"><h2>SAR 0.00</h2></div>
+            </div>
+            <hr>
+            <div class="addnotes">
+                <div class="addnote">
+                    <img src="png/list.png" alt="">
+                    <p>Add Note</p>
+                </div>
+            </div>
+            <hr>
+            <div class="buttons">
+                <div class="customer">
+                    <img src="png/003-user.png" alt="">
+                    Customer
+                </div>
+                <div class="coupon">
+                    <img src="png/001-promo-code.png" alt="">
+                    Coupon
+                </div>
+                <div class="discount">
+                    <img src="png/002-discount.png" alt="">
+                    Discount
+                </div>
+            </div>
+            <hr>
+            <div class="submitbuttons">
+                <div class="printall">
+                    <img src="png/output-onlinepngtools.png" alt="">
+                    Print bill
+                </div>
+                <div class="ptp" onclick="alertmessage()">
+                    Proceed to Payment
+                </div>
+            </div>
+        </div>
+        <div class="rightbar2">
+            <div class="top">
+                <div class="catalog">Catalog</div>
+                <div class="closeicons">
+                    <img src="images/001-dots.png" alt="">
+                    <img src="images/001-dots.png" alt="">
+                </div>
+            </div>
+            <div class="scrollbar">
+                <div class="all">All</div>
+                <div class="starimage"><img class="star" src="png/star.png" alt="">Favourite</div>
+                <div>Burger</div>
+                <div>Sandwich</div>
+                <div>Juice</div>
+                <div>Nachos</div>
+                
+            </div>
+            <div class="allitems">
+                <div class="pizza" onclick="changerightbar()">
+                    <div class="itemimage">
+                        <img src="images/burger.jpeg" alt="">
+                    </div>
+                    <div class="itemdetail">
+                        burger
+                    </div>
+                </div>
+                <div class="pizza" onclick="changerightbar()">
+                    <div class="itemimage">
+                        <img src="images/burger.jpeg" alt="">
+                    </div>
+                    <div class="itemdetail">
+                        burger
+
+                    </div>
+                </div>
+                <div class="pizza" onclick="changerightbar()">
+                    <div class="itemimage">
+                        <img src="images/burger.jpeg" alt="">
+                    </div>
+                    <div class="itemdetail">
+                        burger
+
+                    </div>
+                </div>
+                <div class="pizza" onclick="changerightbar()">
+                    <div class="itemimage">
+                        <img src="images/burger.jpeg" alt="">
+                    </div>
+                    <div class="itemdetail">
+                        burger
+
+                    </div>
+                </div>
+                <div class="pizza" onclick="changerightbar()">
+                    <div class="itemimage">
+                        <img src="images/burger.jpeg" alt="">
+                    </div>
+                    <div class="itemdetail">
+                        burger
+
+                    </div>
+                </div>
+                <div class="pizza" onclick="changerightbar()">
+                    <div class="itemimage">
+                        <img src="images/burger.jpeg" alt="">
+                    </div>
+                    <div class="itemdetail">
+                        burger
+
+                    </div>
+                </div>
+                <div class="pizza" onclick="changerightbar()">
+                    <div class="itemimage">
+                        <img src="images/burger.jpeg" alt="">
+                    </div>
+                    <div class="itemdetail">
+                        burger
+
+                    </div>
+                </div>
+                <div class="pizza" onclick="changerightbar()">
+                    <div class="itemimage">
+                        <img src="images/burger.jpeg" alt="">
+                    </div>
+                    <div class="itemdetail">
+                        burger
+
+                    </div>
+                </div>
+                <div class="pizza" onclick="changerightbar()">
+                    <div class="itemimage">
+                        <img src="images/burger.jpeg" alt="">
+                    </div>
+                    <div class="itemdetail">
+                        burger
+
+                    </div>
+                </div>
+            </div>
+            <div class="submitbuttons" id="submit">
+                <div class="printall">
+                    <img src="png/output-onlinepngtools.png" alt="">
+                    Print All
+                </div>
+                <div class="ptp">
+                    Proceed to Payment
+                </div>
+            </div>
+        </div>
+        <div class="rightbar3">
+            <div class="top">
+                <div class="variants">
+                    Variants & Add-Ons
+                </div>
+                <div class="arrowmark">
+                    <img src="png/001-promo-code.png" alt="">
+                </div>
+            </div>
+            <div class="fulldetails">
+                <div class="fdi">
+                    <img src="images/burger.jpeg" alt="">
+                </div>
+                <div class="fdd">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, voluptate.
+                </div>
+            </div>
+            <div class="tempbuttons">
+                <div class="vaariants">
+                Variants (2)
+                </div>
+                <div class="adddons">
+                    Add-ons
+                </div>
+            </div>
+            <div class="allquantity">
+                <div class="quantity">
+                    Quantity
+                </div>
+                <div class="large">
+                    <div class="largeradioname">
+                        <div class="largeradio"><input type="radio" name="user"></div>
+                        <div class="largename">Large</div>
+                    </div>
+                    <div class="largeprice">SAR 0.00</div>
+                </div>
+                <hr>
+                <div class="large">
+                    <div class="largeradioname">
+                        <div class="largeradio"><input type="radio" name="user"></div>
+                        <div class="largename">Large</div>
+                    </div>
+                    <div class="largeprice">SAR 0.00</div>
+                </div>
+                <hr>
+                <div class="large">
+                    <div class="largeradioname">
+                        <div class="largeradio"><input type="radio" name="user"></div>
+                        <div class="largename">Large</div>
+                    </div>
+                    <div class="largeprice">SAR 0.00</div>
+                </div>
+                
+            </div>
+            <hr>
+            <div class="itemtotal">
+                <div class="it">Item Total</div>
+                <div class="ordertotal">SAR 0.00</div>
+            </div>
+            <hr>
+            <div class="confirm">
+                <div class="quantitytoadd">
+                    <div class="decrement"><img src="png/006-bell.png" alt=""\></div><hr>
+                    <div class="value">1</div><hr>
+                    <div class="increment"><img src="png/006-bell.png" alt=""></div>
+                </div>
+                <div class="quantitytocart" onclick="gotodashboard()">
+                    Add to Cart
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    
+</body>
+</html>
